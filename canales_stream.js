@@ -13,6 +13,8 @@ readable.on('data', (chunk) => {
     }, 1000);
 });
 
+// escuchando eventos
+
 readable.on('end', () => {
     console.log("Finalizo la lectura del canal...");
 })
